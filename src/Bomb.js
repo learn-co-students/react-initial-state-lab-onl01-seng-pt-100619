@@ -10,9 +10,9 @@ export default class Bomb extends Component{
     }
     countDown = () => {
         if(this.state.secondsLeft === 0){
-            return 'Boom!'
+            return 'Boom!';
         }else{
-            return `${this.state.secondsLeft} seconds left before I go boom!`
+            return `${this.state.secondsLeft} seconds left before I go boom!`;
         }
     }
 
