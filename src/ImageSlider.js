@@ -1,6 +1,6 @@
 import React from 'react' 
 
-class ImageSlider extends Component { 
+class ImageSlider extends React.Component { 
     constructor() { 
         super(); 
             this.state = { 
@@ -10,7 +10,7 @@ class ImageSlider extends Component {
 
     render(){ 
         return( 
-            <div>I am on slide {this.state.currentSlideIndex}.</div>
+            <div>I am on slide {this.state.currentSlideIndex}</div>
         )
     }
 }
